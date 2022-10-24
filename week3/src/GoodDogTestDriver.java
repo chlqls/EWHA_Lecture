@@ -1,4 +1,3 @@
-
 public class GoodDogTestDriver {
 
 	public static void main(String[] args) {
@@ -7,11 +6,11 @@ public class GoodDogTestDriver {
 		GoodDog one = new GoodDog();
 		
 		one.setSize(30);
-		one.setSize(0);//º¯°æ¾ÈµÊ
+		one.setSize(0);//ÂºÂ¯Â°Ã¦Â¾ÃˆÂµÃŠ
 		
 		one.bark(3);
 		
-//		one.size = 10; //¿¡·¯
+//		one.size = 10; //Â¿Â¡Â·Â¯
 		
 		System.out.println("Dog one: " + one.getSize());
 
