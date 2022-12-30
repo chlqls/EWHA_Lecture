@@ -43,7 +43,7 @@ T Queue<T>::front() {// return front data
 	if (isEmpty())
 	{
 		cout << ("Queue is empty") << endl;
-		return 0; //queue°¡ emptyÀÏ ¶§ ¾î¶² °ªÀ» return ÇØ¾ßÇÒÁö ¸ô¶ó¼­ 0À» Çß´Âµ¥ main.cpp¿¡¼­ front¸¦ Ãâ·ÂÇÏ¸é "Queue is empty"¿Í 0ÀÌ °°ÀÌ Ãâ·ÂµÇ´Â ¹®Á¦°¡ ÀÖ¾ú½À´Ï´Ù.(ÇØ°á¸øÇÔ)
+		return 0; //queueê°€ emptyì¼ ë•Œ ì–´ë–¤ ê°’ì„ return í•´ì•¼í• ì§€ ëª°ë¼ì„œ 0ì„ í–ˆëŠ”ë° main.cppì—ì„œ frontë¥¼ ì¶œë ¥í•˜ë©´ "Queue is empty"ì™€ 0ì´ ê°™ì´ ì¶œë ¥ë˜ëŠ” ë¬¸ì œê°€ ìžˆì—ˆìŠµë‹ˆë‹¤.(í•´ê²°ëª»í•¨)
 	}
 	else
 		return queue[front_p];
